@@ -1,0 +1,20 @@
+current directory: /Users/quakex/rails_projects/circles/vendor/bundle/ruby/2.0.0/gems/byebug-9.0.6/ext/byebug
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby -r ./siteconf20170204-1250-1r5qmml.rb extconf.rb
+creating Makefile
+
+current directory: /Users/quakex/rails_projects/circles/vendor/bundle/ruby/2.0.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/quakex/rails_projects/circles/vendor/bundle/ruby/2.0.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/quakex/rails_projects/circles/vendor/bundle/ruby/2.0.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20170204-1250-9e1bii/byebug
+installing default byebug libraries
