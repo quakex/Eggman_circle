@@ -27,12 +27,12 @@
           <div class="collapse navbar-collapse nav-submenu-color collapse" id="bs-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right custom">
               <li>
-                <a href="/">Home</a>
+                <a href="/">首页</a>
               </li>
               <li>
                 <a href="<%= users_path %>">用户</a>
               </li>
-
+              <!-- 一句话包含很多内容。 -->
               <% if session[:user_id] %>
                 <li><%= link_to "#{User.find(session[:user_id]).username}, 退出", session_path(session[:user_id]), method: 'delete' %></li>
               <% else %>
@@ -50,7 +50,7 @@
       <% if flash[:notice] %>
         <div class="alert alert-info"><%= flash[:notice] %></div>
       <% end -%>
-      
+
       <%= yield %>
     </div>
   </body>
